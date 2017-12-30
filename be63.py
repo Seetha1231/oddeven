@@ -6,4 +6,7 @@ def countsen():
 		if sen[i]==' ':
 			c+=1
 	print(c)
-  
+try:
+	countsen()
+except:
+	print('invalid') 
