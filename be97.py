@@ -6,3 +6,7 @@ def rev():
 		rev=rev*10+r
 		n//=10
 	print(rev)
+try:
+	rev()
+except:
+	print('invalid')
