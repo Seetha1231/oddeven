@@ -9,3 +9,7 @@
 		print('yes')
 	else :
 		print('no')
+try:
+	compo()
+except:
+	print('invalid')
