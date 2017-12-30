@@ -6,3 +6,7 @@ def lcm2():
 			break
 		temp+=1
 	print(temp)
+try:
+	lcm2()
+except:
+	print('invalid')
