@@ -1,3 +1,4 @@
+import sys
 def gcd2():
 	(x,y)=map(int,sys.stdin.readline().split())
 	while(y!=0):
@@ -5,3 +6,7 @@ def gcd2():
 		y=x%y
 		x=t
 	print(x)
+try:
+	gcd2()
+except:
+	print('invalid')
