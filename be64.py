@@ -6,3 +6,8 @@
 		print('even')
 	else :
 		print('odd')
+try:
+	sumodd()
+except:
+	print('invalid')
+	
