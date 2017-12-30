@@ -6,3 +6,7 @@ def proddig():
 		p=p*r
 		n//=10
 	print(p)
+try:
+	proddig()
+except:
+	print('invalid')
