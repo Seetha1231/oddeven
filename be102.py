@@ -6,3 +6,7 @@ def main():
 		else :
 			print(n)
 			break
+try:
+	main()
+except:
+	print('invalid')
