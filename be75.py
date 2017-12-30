@@ -16,3 +16,7 @@
 	for i in range(j,n):
 		s+=l[i]
 	print(s)
+try:
+	midchenge()
+except:
+	print('invalid')
