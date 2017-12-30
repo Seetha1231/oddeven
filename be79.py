@@ -8,3 +8,7 @@ def persqr():
 		print('yes')
 	else :
 		print('no')
+try:
+	persqr()
+except:
+	print('invalid')
