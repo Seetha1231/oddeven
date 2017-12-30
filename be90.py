@@ -6,3 +6,7 @@ def onlyint():
 		if i.isnumeric():
 			a+=i
 	print(a)
+try:
+	onlyint()
+except:
+	print('invalid')
