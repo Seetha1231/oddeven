@@ -6,4 +6,4 @@ try:
 			print(p)
 			break
 except:
-    print('invalid')
+	print('invalid')
