@@ -6,3 +6,7 @@ def sumall():
 		l.append(int(input()))
 		sum+=l[i]
 	print(sum)
+try:
+	sumall()
+except:
+	print('invalid')
