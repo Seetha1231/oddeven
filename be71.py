@@ -5,3 +5,7 @@ def pali():
 		print('yes')
 	else :
 		print('no')
+try:
+	pali()
+except:
+	print('invalid')
