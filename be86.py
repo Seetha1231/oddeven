@@ -9,3 +9,7 @@ def isogram():
 		print('yes')
 	else :
 		print('no')
+try:
+	isogram()
+except:
+	print('invalid')
