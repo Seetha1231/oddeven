@@ -15,3 +15,7 @@
 			break
 	for i in l:
 		print(i)
+try:
+	main()
+except:
+	print('invalid')
