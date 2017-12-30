@@ -8,3 +8,7 @@ def str1to2():
 		else :
 			o+=l[i]
 	print(e,o)
+try:
+	str1to2()
+except:
+	print('invalid')
