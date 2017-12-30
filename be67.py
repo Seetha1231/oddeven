@@ -5,3 +5,7 @@
 			break
 		n=n+1
 	print(n)
+try:
+	near10()
+except:
+	print('invalid')
