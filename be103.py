@@ -5,3 +5,7 @@ def main():
 	for i in l:
 		st+=i.title()+' '
 	print(st)
+try:
+	main()
+except:
+	print('invalid')
