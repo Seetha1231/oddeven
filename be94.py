@@ -4,3 +4,7 @@ def kthno():
 	for i in range(n):
 		l.append(int(input()))
 	print(l[k-1])
+try:
+	kthno()
+except:
+	print('invalid')
