@@ -6,4 +6,8 @@ def between():
 		if i==n:
 			return 'yes'
 	return 'no'
+try:
+	between()
+except:
+	print('invalid')
   
