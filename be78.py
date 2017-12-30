@@ -4,3 +4,7 @@ def mul13():
 		print('yes')
 	else :
 		print('no')
+try:
+	mul13()
+except:
+	print('invalid')
