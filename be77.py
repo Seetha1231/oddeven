@@ -8,3 +8,7 @@ def composites():
 	l.append(n)
 	for i in l:
 		print(i)
+try:
+	composites()
+except:
+	print('invalid')
