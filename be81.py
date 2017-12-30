@@ -13,3 +13,7 @@
 		l=[]
 	for i in r:
 		print(i[1]-i[0])
+try:
+	getl()
+except:
+	print('invalid')
