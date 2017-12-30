@@ -7,3 +7,7 @@ def changed():
 		if l[i-1]>l[i]:
 			print(l[i-1])
 			break
+try:
+	changed()
+except:
+	print('invalid')
